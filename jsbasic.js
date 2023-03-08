@@ -22,3 +22,35 @@ if (speciestype == "human") {
 } else {
     console.log("species is alien")
 }
+/*
+for loop
+*/
+for (let i = 1; i < 10; i++) {
+    console.log("value of i=", i)
+}
+/*
+while loop
+*/
+var i = 11;
+while (i > 0) {
+    i--;
+    console.log("value of i=", i)
+}
+/**
+ * switch case
+ **/
+let j = "sunday"
+switch (j) {
+    case "monday":
+        console.log("hello monday");
+        break;
+    case "tuesday":
+        console.log("hello tuesday");
+        break;
+    case "sunday":
+        console.log("hello sunday");
+        break;
+    case "saturday":
+        console.log("hello saturday");
+        break;
+}
