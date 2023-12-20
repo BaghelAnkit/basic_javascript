@@ -53,4 +53,10 @@ switch (j) {
     case "saturday":
         console.log("hello saturday");
         break;
+
+
+
+
+
+
 }
